@@ -1,0 +1,18 @@
+# Build artifacts (uncomment if these are generated)
+# build/
+
+# Node modules (if using npm)
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/settings.json
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp

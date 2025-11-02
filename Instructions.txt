@@ -1,0 +1,7 @@
+1) Edit pasages\header.twee and insert a new GUID - you can get one on the internet (e.g. https://www.uuidgenerator.net/guid)
+
+2) Github commands
+git init
+git add .
+git commit -m "initial commit"
+git push 

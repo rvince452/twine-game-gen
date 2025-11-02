@@ -1,0 +1,65 @@
+:: StoryTitle
+Card game
+
+
+:: StoryData
+{
+  "ifid": "1fe01661-0504-49a8-bcd7-80b589c81628",
+  "format": "SugarCube",
+  "format-version": "2.30.0",
+  "start": "Start",
+  "tag-colors": {
+    "REVIEW": "orange",
+    "UNUSED": "yellow",
+    "EXAMPLE": "purple",
+    "MAIN": "green"
+  },
+  "zoom": 0.6
+}
+
+
+:: StoryStylesheet
+@import url("styles/custom.css");
+
+:: Story JavaScript
+/* Import custom JavaScript files */
+
+
+
+:: StoryAuthor {"position":"100,0","size":"100,100"}
+!!! Mystery Author
+
+
+:: StoryBanner {"position":"300,0","size":"100,100"}
+<img src="img/game.jpg" alt="Game">
+
+
+:: StoryDisplayTitle {"position":"0,0","size":"100,100"}
+!! Demo Game
+!!! Expand as required
+
+
+
+
+
+
+:: StoryMenu {"position":"500,0","size":"100,100"}
+Does not show text, only links - check documentation
+[[Inventory]]
+[[characters]]
+[[status]]
+
+
+// StoryRightSidebar [UNUSED] moved to 99_unused.twee
+
+
+:: PassageFooter {"position":"200,0","size":"100,100"}
+<<if $debug is true>>\
+<<print "-----">>
+<<print "debuggin on: current passage=" + passage()>>
+<</if>>\
+<div style="border:1px solid #33C; padding:8px; margin:6px 0; border-radius:4px;"> 
+Footer contents
+</div>
+
+
