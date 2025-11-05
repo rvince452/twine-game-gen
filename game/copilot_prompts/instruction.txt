@@ -1,0 +1,22 @@
+Map
+    Paved road to house
+    house
+    Pool
+    Poolhouse
+    Garden
+        Fountain
+    Forest path to barn
+    barn
+        barn first floor
+        barn second floor
+        barn third floor
+    Path to pond
+    pond
+        dock
+        boathouse
+    Path through Forest
+    Campground
+        Cabin 1
+        Cabin 2
+        Cabin 3
+        
