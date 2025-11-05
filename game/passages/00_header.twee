@@ -1,5 +1,5 @@
 :: StoryTitle
-Card game
+General Game
 
 
 :: StoryData
@@ -38,19 +38,11 @@ Card game
 !! Demo Game
 !!! Expand as required
 
-
-
-
-
-
 :: StoryMenu {"position":"500,0","size":"100,100"}
 Does not show text, only links - check documentation
 [[Inventory]]
 [[characters]]
 [[status]]
-
-
-// StoryRightSidebar [UNUSED] moved to 99_unused.twee
 
 
 :: PassageFooter {"position":"200,0","size":"100,100"}
