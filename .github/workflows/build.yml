@@ -88,7 +88,7 @@ jobs:
           
           # Copy image files to build directory (matching build.bat)
           echo "Copying image files to build directory..."
-          cp -r img/ build/img/
+          cp -r game/img/ build/img/
           echo "✅ Images copied to build/img/"
           ls -la build/img/
           
@@ -110,7 +110,7 @@ jobs:
             
             # Still copy images even with minimal build
             echo "Copying image files to build directory..."
-            cp -r img/ build/img/
+            cp -r game/img/ build/img/
             echo "✅ Images copied to build/img/"
             
             # Copy index.html for landing page (matching build.bat)
