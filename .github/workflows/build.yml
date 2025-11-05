@@ -63,15 +63,15 @@ jobs:
         
         # Check passages directory contents
         echo "Passages directory contents:"
-        ls -la passages/
+        ls -la gamepassages/
         
         # Check img directory contents
         echo "Images directory contents:"
-        ls -la img/ || echo "No img directory found"
+        ls -la game/img/ || echo "No img directory found"
         
         # Check twee file contents briefly
         echo "Checking twee files:"
-        for file in passages/*.twee; do
+        for file in game/passages/*.twee; do
           echo "=== $file ==="
           head -5 "$file"
         done
@@ -80,7 +80,7 @@ jobs:
         
         # Build without embedding images
         echo "Attempting: tweego -o build/game.html passages/ scripts/ styles/"
-        if tweego -o build/game.html passages/ scripts/ styles/; then
+        if tweego -o build/game.html game/passages/ game/scripts/ game/styles/; then
           echo "✅ Build completed successfully"
           echo "Output file info:"
           ls -la build/game.html

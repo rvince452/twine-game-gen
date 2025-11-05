@@ -26,6 +26,10 @@ The game is automatically built using GitHub Actions whenever changes are pushed
 
 - [Tweego](https://www.motoslave.net/tweego/) - Twee compiler
 
+- You can edit files with Notepad or any text editor but ideally use Visual Code:
+    Visual Code
+    Twee 3 Language Tools (Visual Code Extension)
+
 #### Build Instructions
 
 1. Navigate to the game directory
