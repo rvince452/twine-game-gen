@@ -95,12 +95,12 @@ jobs:
           ls -la build/img/
           
           # Copy index.html for landing page (matching build.bat)
-          if [ -f "index.html" ]; then
+          if [ -f "game/index.html" ]; then
             echo "Copying index.html for landing page..."
-            cp index.html build/index.html
-            echo "✅ Landing page copied"
+            cp game/index.html build/index.html
+            echo "✅ Landing page copied from game/index.html"
           else
-            echo "No index.html found in root directory"
+            echo "No index.html found in game directory"
           fi
         else
           echo "❌ Build failed, trying with passages only..."
@@ -116,12 +116,12 @@ jobs:
             echo "✅ Images copied to build/img/"
             
             # Copy index.html for landing page (matching build.bat)
-            if [ -f "index.html" ]; then
+            if [ -f "game/index.html" ]; then
               echo "Copying index.html for landing page..."
-              cp index.html build/index.html
-              echo "✅ Landing page copied"
+              cp game/index.html build/index.html
+              echo "✅ Landing page copied from game/index.html"
             else
-              echo "No index.html found in root directory"
+              echo "No index.html found in game directory"
             fi
           else
             echo "❌ Second attempt failed, trying with passages only..."
