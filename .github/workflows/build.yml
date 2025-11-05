@@ -63,7 +63,7 @@ jobs:
         
         # Check passages directory contents
         echo "Passages directory contents:"
-        ls -la gamepassages/
+        ls -la game/passages/
         
         # Check img directory contents
         echo "Images directory contents:"
