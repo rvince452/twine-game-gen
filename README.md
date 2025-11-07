@@ -18,9 +18,13 @@ The game is automatically built using GitHub Actions whenever changes are pushed
 - ✅ **GitHub Pages Deployment**: Game is automatically deployed and playable online
 - ✅ **Artifact Downloads**: Compiled game files are available as downloadable artifacts
 
-**Play Online**: TODO add link to github deployment
+**Play Online**: The most recent version can be run from here: https://rvince452.github.io/twine-game-gen/
 
 ### Manual Build (Local Development)
+If you download the code and install the prerequisites, then you can build the html by running:
+build.bat
+
+the output will be in the build folder.
 
 #### Prerequisites
 
