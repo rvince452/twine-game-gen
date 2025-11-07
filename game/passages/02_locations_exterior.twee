@@ -1,0 +1,248 @@
+:: loc-ravine-north {"position":"100,200","size":"100,100"}
+<!-- North boundary ravine location -->
+You stand at the edge of a deep ravine that marks the northern boundary of the property. The rocky walls drop down into shadows, and you can hear the distant sound of running water far below.
+
+[[Go back south|loc-forest-general]]
+
+
+:: loc-forest-general {"position":"200,200","size":"100,100"}
+<!-- General forest area surrounding the property -->
+Dense forest surrounds you, with tall trees creating a canopy that filters the sunlight into dappled patterns on the forest floor. Paths wind through the undergrowth in various directions.
+
+[[Stone-lined burn pit->obj-fire-burn-pit]]
+
+[[North to ravine|loc-ravine-north]]
+[[To campground|loc-campground-main]]
+[[To pond area|loc-forest-pond]]
+[[To barn area|loc-forest-barn]]
+[[To maze and pool|loc-forest-maze-pool]]
+[[To garden and house|loc-forest-garden-house]]
+[[To driveway|loc-forest-driveway]]
+
+
+:: loc-campground-main {"position":"300,100","size":"100,100"}
+<!-- Main campground area -->
+A cleared area in the forest serves as a rustic campground. Three small cabins are arranged around a central fire pit area.
+
+[[Enter Cabin 1|loc-campground-cabin1]]
+[[Enter Cabin 2|loc-campground-cabin2]]
+[[Enter Cabin 3|loc-campground-cabin3]]
+[[Back to forest|loc-forest-general]]
+
+
+:: loc-campground-cabin1 {"position":"250,50","size":"100,100"}
+<!-- Campground Cabin 1 -->
+[[man in a Hawaiian shirt->char-thomas-magnum]]
+A small, weathered log cabin with basic amenities. Dust motes dance in the light filtering through small windows.
+
+[[Exit cabin|loc-campground-main]]
+
+
+:: loc-campground-cabin2 {"position":"300,50","size":"100,100"}
+<!-- Campground Cabin 2 -->
+[[elegant woman in a business suit->char-maddie-hayes]]
+Similar to the other cabins but with slightly different furnishings. A stone fireplace dominates one wall.
+
+[[Exit cabin|loc-campground-main]]
+
+
+:: loc-campground-cabin3 {"position":"350,50","size":"100,100"}
+<!-- Campground Cabin 3 -->
+The third cabin appears to have been used more recently than the others. Personal items suggest recent occupancy.
+
+[[Exit cabin|loc-campground-main]]
+
+
+:: loc-forest-pond {"position":"400,200","size":"100,100"}
+<!-- Forest area near the pond -->
+The trees thin out here as you approach the pond area. You can see glimpses of water through the branches.
+
+[[To the pond|loc-pond-main]]
+[[Path through forest|loc-forest-path]]
+[[Back to main forest|loc-forest-general]]
+
+
+:: loc-pond-main {"position":"500,200","size":"100,100"}
+<!-- Main pond location -->
+[[man in a pastel suit->char-sonny-crockett]]
+A serene pond reflects the sky and surrounding trees. The water is clear and still, with a wooden dock extending into the water.
+
+[[Fishing pole and tackle box->obj-pole-fishing]]
+
+[[Walk onto dock|loc-pond-dock]]
+[[Enter boathouse|loc-pond-boathouse]]
+[[Forest path back|loc-forest-pond]]
+
+
+:: loc-pond-dock {"position":"550,200","size":"100,100"}
+<!-- Pond dock -->
+The wooden dock creaks softly under your feet. From here you have a perfect view across the entire pond.
+
+[[Back to pond shore|loc-pond-main]]
+
+
+:: loc-pond-boathouse {"position":"500,250","size":"100,100"}
+<!-- Pond boathouse -->
+[[man in a navy police jacket->char-t-j-hooker]]
+A small boathouse sits at the water's edge, housing a couple of rowboats and fishing equipment.
+
+[[Wooden rowboat->obj-vehicle-boat]]
+[[Fishing pole and tackle->obj-pole-fishing]]
+
+[[Exit boathouse->loc-pond-main]]
+
+
+:: loc-forest-barn {"position":"100,300","size":"100,100"}
+<!-- Forest area near the barn -->
+[[man in a linen suit->char-ricardo-tubbs]]
+A well-worn path leads through the forest toward a large wooden structure visible through the trees.
+
+[[Follow path to barn|loc-barn-main]]
+[[Back to forest|loc-forest-general]]
+
+
+:: loc-barn-main {"position":"100,400","size":"100,100"}
+<!-- Main barn location -->
+A large, traditional wooden barn with weathered red paint. The structure has three levels and appears to be well-maintained.
+
+[[John Deere tractor->obj-vehicle-tractor]]
+[[Farm plow->obj-tools-farm-plow]]
+[[Farm implements->obj-tools-farm-implements]]
+
+[[Enter first floor->loc-barn-floor1]]
+[[Climb to second floor->loc-barn-floor2]]
+[[Access third floor->loc-barn-floor3]]
+[[Forest path back->loc-forest-barn]]
+
+
+:: loc-barn-floor1 {"position":"50,400","size":"100,100"}
+<!-- Barn first floor -->
+The ground level of the barn contains farming equipment and hay bales. Dust particles dance in shafts of sunlight.
+
+[[Pile of miscellaneous junk->obj-debris-junk-pile]]
+
+[[Go up to second floor|loc-barn-floor2]]
+[[Exit barn|loc-barn-main]]
+
+
+:: loc-barn-floor2 {"position":"100,350","size":"100,100"}
+<!-- Barn second floor -->
+The second floor serves as a hayloft with bales of hay stacked along the walls. A ladder leads up to the third floor.
+
+[[Climb to third floor|loc-barn-floor3]]
+[[Go down to first floor|loc-barn-floor1]]
+[[Exit barn|loc-barn-main]]
+
+
+:: loc-barn-floor3 {"position":"150,350","size":"100,100"}
+<!-- Barn third floor -->
+The top level of the barn offers a view through small windows over the entire property. Storage and old farming tools fill the space.
+
+[[Go down to second floor|loc-barn-floor2]]
+[[Exit barn|loc-barn-main]]
+
+
+:: loc-forest-maze-pool {"position":"200,400","size":"100,100"}
+<!-- Forest area near maze and pool -->
+[[man in a tailored suit->char-remington-steele]]
+Through the trees, you can see the geometric patterns of a hedge maze and the glint of water from a swimming pool.
+
+[[Enter the maze|loc-maze-main]]
+[[Go to pool area|loc-pool-main]]
+[[Back to forest|loc-forest-general]]
+
+
+:: loc-maze-main {"position":"200,500","size":"100,100"}
+<!-- Hedge maze location -->
+You stand at the entrance to an intricate hedge maze. The pathways wind between tall, carefully trimmed hedges that block your view of the exit.
+
+[[Enter maze (navigation puzzle)|maze-puzzle-start]]
+[[Go to pool instead|loc-pool-main]]
+[[Back to forest|loc-forest-maze-pool]]
+
+
+:: loc-pool-main {"position":"300,500","size":"100,100"}
+<!-- Swimming pool area -->
+A large, well-maintained swimming pool sparkles in the sunlight. Pool furniture and umbrellas are arranged around the deck area.
+
+[[Billiard balls on pool table->obj-game-poolballs]]
+
+[[Enter poolhouse|loc-poolhouse-main]]
+[[Back to forest|loc-forest-maze-pool]]
+
+
+:: loc-poolhouse-main {"position":"350,500","size":"100,100"}
+<!-- Pool house -->
+A comfortable poolhouse with changing rooms and a small kitchen area. Large windows overlook the pool.
+
+[[Exit to pool area|loc-pool-main]]
+
+
+:: loc-forest-garden-house {"position":"400,400","size":"100,100"}
+<!-- Forest area near garden and main house -->
+The forest opens up here, revealing manicured gardens and the impressive main house beyond.
+
+[[Enter the garden|loc-garden-main]]
+[[Approach main house|loc-house-exterior]]
+[[Back to forest|loc-forest-general]]
+
+
+:: loc-garden-main {"position":"500,400","size":"100,100"}
+<!-- Main garden area -->
+[[woman with auburn hair and cardigan->char-jessica-fletcher]]
+Beautifully landscaped gardens with winding paths, flower beds, and ornamental plants create a peaceful oasis.
+
+[[Traditional scarecrow in the garden->obj-decoration-scarecrow]]
+
+[[Examine fountain|loc-garden-fountain]]
+[[Go to main house|loc-house-exterior]]
+[[Back to forest|loc-forest-garden-house]]
+
+
+:: loc-garden-fountain {"position":"500,350","size":"100,100"}
+<!-- Garden fountain -->
+An elegant stone fountain serves as the centerpiece of the garden. Water cascades from multiple tiers, creating a soothing sound.
+
+[[Back to garden|loc-garden-main]]
+
+
+:: loc-forest-driveway {"position":"600,400","size":"100,100"}
+<!-- Forest area near driveway -->
+A paved driveway cuts through the forest, leading from the main road to the house property.
+
+[[Large trash bin->obj-waste-trash-bin]]
+
+[[Follow driveway to house|loc-house-exterior]]
+[[To main road|loc-road-dirt]]
+[[Back to forest|loc-forest-general]]
+
+
+:: loc-road-dirt {"position":"700,400","size":"100,100"}
+<!-- Dirt road - south boundary -->
+A dirt road marks the southern boundary of the property. It connects to paved roads leading to and from the main house.
+
+[[Follow paved road to house|loc-house-exterior]]
+[[Into forest|loc-forest-driveway]]
+
+
+:: loc-house-exterior {"position":"600,300","size":"100,100"}
+<!-- Main house exterior -->
+An impressive multi-story house stands before you. The architecture suggests both comfort and elegance, with a paved driveway leading to the front entrance.
+
+[[Enter house through main door|loc-house-floor1-entry]]
+[[Go to garage|loc-garage-main]]
+[[Visit garden|loc-garden-main]]
+[[To pool area|loc-pool-main]]
+
+
+:: loc-garage-main {"position":"650,250","size":"100,100"}
+<!-- Garage location -->
+A spacious garage with room for multiple vehicles. Tools and equipment line the walls.
+
+[[Old pickup truck->obj-vehicle-oldtruck]]
+[[Toolbox with wrenches->obj-tools-wrench-set]]
+[[Screwdriver set->obj-tools-screwdriver-set]]
+[[Hardware supplies->obj-supplies-hardware]]
+
+[[Exit to house exterior->loc-house-exterior]]
+[[Enter house through garage->loc-house-floor1-utility]]

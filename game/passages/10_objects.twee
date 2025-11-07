@@ -1,0 +1,163 @@
+:: obj-vehicle-oldtruck {"position":"100,100","size":"100,100"}
+<!-- Old pickup truck in garage or barn area -->
+An old pickup truck sits here, its red paint faded and rust spots visible along the wheel wells. The keys are nowhere to be seen, but the truck bed contains various farming supplies.
+
+[[Examine truck bed->obj-supplies-hardware]]
+[[Check under hood->obj-engine-broken]]
+
+
+:: obj-vehicle-tractor {"position":"150,100","size":"100,100"}
+<!-- Farm tractor in barn -->
+A green John Deere tractor, well-used but maintained. It has various attachments nearby for different farming tasks.
+
+[[Examine attachments->obj-tools-farm-implements]]
+
+
+:: obj-vehicle-boat {"position":"200,100","size":"100,100"}
+<!-- Rowboat in boathouse -->
+A sturdy wooden rowboat with oars resting inside. The wood shows signs of recent maintenance and care.
+
+[[Check for fishing gear->obj-pole-fishing]]
+
+
+:: obj-game-cardtable {"position":"100,200","size":"100,100"}
+<!-- Card table with poker chips -->
+A round card table covered in green felt. Poker chips are scattered across the surface, and a deck of cards sits in the center.
+
+
+:: obj-game-chessboard {"position":"150,200","size":"100,100"}
+<!-- Chess set in study -->
+An ornate wooden chess set sits on a small table. The pieces are carved from dark and light wood, and a game appears to be in progress.
+
+
+:: obj-game-poolballs {"position":"200,200","size":"100,100"}
+<!-- Pool/billiard balls -->
+A set of billiard balls scattered on a pool table. The cue ball sits near the corner pocket.
+
+
+:: obj-tools-farm-plow {"position":"100,300","size":"100,100"}
+<!-- Farm plow attachment -->
+A heavy steel plow designed to be pulled behind a tractor. The blades are sharp and the metal shows wear from years of use.
+
+
+:: obj-tools-farm-implements {"position":"150,300","size":"100,100"}
+<!-- Collection of farm tools -->
+An assortment of farming implements: a hay rake, cultivator, and seed spreader. All appear to be in working condition.
+
+
+:: obj-tools-hammer {"position":"200,300","size":"100,100"}
+<!-- Regular hammer tool -->
+A well-worn claw hammer with a wooden handle. The head shows signs of heavy use but appears sturdy.
+
+[[Look for nails->obj-supplies-hardware]]
+
+
+:: obj-tools-wrench-set {"position":"250,300","size":"100,100"}
+<!-- Set of wrenches -->
+A complete set of combination wrenches in various sizes, organized in a roll-up tool pouch.
+
+
+:: obj-tools-screwdriver-set {"position":"100,400","size":"100,100"}
+<!-- Screwdriver collection -->
+A magnetic-tipped screwdriver set with both Phillips and flathead varieties in multiple sizes.
+
+
+:: obj-appliance-old-fridge {"position":"150,400","size":"100,100"}
+<!-- Old refrigerator -->
+An avocado-green refrigerator from the 1970s sits humming quietly. The door handle is slightly loose.
+
+
+:: obj-storage-trunk-wooden {"position":"200,400","size":"100,100"}
+<!-- Wooden storage trunk -->
+A large wooden trunk with brass corners and latches. The wood is dark with age, and initials "E.L." are carved into the lid.
+
+
+:: obj-storage-trunk-metal {"position":"250,400","size":"100,100"}
+<!-- Metal footlocker -->
+A military-style metal footlocker painted olive drab. It appears to be locked with a combination lock.
+
+
+:: obj-computer-desktop {"position":"100,500","size":"100,100"}
+<!-- Desktop computer -->
+An older desktop computer with a CRT monitor. The tower hums quietly, and various cables connect to peripherals.
+
+
+:: obj-computer-laptop {"position":"150,500","size":"100,100"}
+<!-- Laptop computer -->
+A newer laptop computer, closed and sitting on a desk. The power cord is plugged in nearby.
+
+
+:: obj-decoration-scarecrow {"position":"200,500","size":"100,100"}
+<!-- Garden scarecrow -->
+A traditional scarecrow with a straw hat, flannel shirt, and overalls stuffed with hay. It stands guard over the garden.
+
+
+:: obj-bottle-wine-vintage {"position":"250,500","size":"100,100"}
+<!-- Vintage wine bottle -->
+A dusty wine bottle with a faded label from 1982. The cork appears intact and the wine level looks good.
+
+[[Check wine cellar->obj-bottle-wine-collection]]
+
+
+:: obj-bottle-wine-collection {"position":"100,600","size":"100,100"}
+<!-- Wine bottle collection -->
+A rack of various wine bottles, ranging from recent vintages to bottles covered in decades of dust.
+
+[[Select vintage bottle->obj-bottle-wine-vintage]]
+
+
+:: obj-safe-small {"position":"150,600","size":"100,100"}
+<!-- Small office safe -->
+A compact fireproof safe sits in the corner of the study. It has a digital keypad lock with a small LED display.
+
+
+:: obj-weapon-rifle {"position":"200,600","size":"100,100"}
+<!-- Hunting rifle -->
+A bolt-action hunting rifle mounted on a wall rack. It appears to be well-maintained with a scope attached.
+
+[[Check ammunition->obj-ammo-rifle]]
+
+
+:: obj-luggage-suitcase-leather {"position":"250,600","size":"100,100"}
+<!-- Leather suitcase -->
+An expensive leather suitcase with brass fittings and a combination lock. The leather shows quality craftsmanship.
+
+
+:: obj-luggage-suitcase-fabric {"position":"100,700","size":"100,100"}
+<!-- Fabric travel case -->
+A soft-sided travel case with multiple compartments and zippers. It appears to have been used recently.
+
+
+:: obj-pole-fishing {"position":"150,700","size":"100,100"}
+<!-- Fishing pole and tackle -->
+A fishing rod with reel, along with a tackle box containing various lures, hooks, and sinkers.
+
+
+:: obj-debris-junk-pile {"position":"200,700","size":"100,100"}
+<!-- Pile of miscellaneous junk -->
+A collection of broken items, old parts, and discarded objects that might have value to someone with patience.
+
+
+:: obj-waste-trash-bin {"position":"250,700","size":"100,100"}
+<!-- Trash receptacle -->
+A large wheeled trash bin, partially full with household waste. The lid is slightly ajar.
+
+
+:: obj-fire-burn-pit {"position":"100,800","size":"100,100"}
+<!-- Outdoor burn pit -->
+A stone-lined fire pit used for burning yard waste and debris. Ashes and partially burned material remain.
+
+
+:: obj-supplies-hardware {"position":"150,800","size":"100,100"}
+<!-- Hardware supplies -->
+A collection of screws, nails, bolts, washers, and other small hardware organized in compartmented boxes.
+
+
+:: obj-engine-broken {"position":"200,800","size":"100,100"}
+<!-- Broken engine -->
+An old small engine, possibly from a lawnmower or generator. Several parts are missing or broken.
+
+
+:: obj-ammo-rifle {"position":"250,800","size":"100,100"}
+<!-- Rifle ammunition -->
+A box of rifle cartridges, .30-06 caliber. The box is about half full and the ammunition appears to be in good condition.

@@ -1,6 +1,8 @@
 :: Start
 
-You are at the start of the game. But nowhere to go. 
+You are at the start of the game. But nowhere to go except to follow the road
+[[Follow the road to the house|loc-forest-driveway]]
+[[Enter the forest|loc-forest-general]]
 
 
 :: StoryInit {"position":"1800,425","size":"100,200"}
