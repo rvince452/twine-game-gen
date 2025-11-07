@@ -1,0 +1,227 @@
+:: loc-house-floor1-entry {"position":"700,300","size":"100,100"}
+<!-- House first floor - entry -->
+You enter through the main door into an elegant entryway. A grand staircase leads upward, and doorways branch off to various rooms.
+
+| [[Go to closet|loc-house-floor1-closet]] | [[Enter living room|loc-house-floor1-living]] | [[Go to kitchen|loc-house-floor1-kitchen]] |
+| [[Visit study|loc-house-floor1-study]]   | [[Go to bar|loc-house-floor1-bar]]           | [[Access utility area|loc-house-floor1-utility]] |
+| [[Go upstairs|loc-house-floor2-hallway]] | [[Go to basement|loc-house-basement-main]]   | [[Exit house|loc-house-exterior]] |
+
+
+:: loc-house-floor1-closet {"position":"650,300","size":"100,100"}
+<!-- House first floor - entry closet -->
+A coat closet near the front door contains outdoor wear and umbrellas.
+
+[[Back to entry|loc-house-floor1-entry]]
+
+
+:: loc-house-floor1-living {"position":"750,300","size":"100,100"}
+<!-- House first floor - living room -->
+[[woman with feathered brown hair and blazer->char-murphy-brown]]
+A spacious living room with comfortable furniture arranged around a fireplace. Large windows provide views of the garden.
+
+[[Back to entry|loc-house-floor1-entry]]
+[[To kitchen|loc-house-floor1-kitchen]]
+
+
+:: loc-house-floor1-kitchen {"position":"800,300","size":"100,100"}
+<!-- House first floor - kitchen -->
+A well-appointed kitchen with modern appliances and ample counter space. A door leads to the pantry.
+
+[[Enter pantry|loc-house-floor1-pantry]]
+[[To living room|loc-house-floor1-living]]
+[[To entry|loc-house-floor1-entry]]
+[[To utility area|loc-house-floor1-utility]]
+
+
+:: loc-house-floor1-pantry {"position":"850,300","size":"100,100"}
+<!-- House first floor - kitchen pantry -->
+A walk-in pantry stocked with food supplies and kitchen equipment.
+
+[[Vintage wine bottle->obj-bottle-wine-vintage]]
+
+[[Back to kitchen|loc-house-floor1-kitchen]]
+
+
+:: loc-house-floor1-utility {"position":"700,350","size":"100,100"}
+<!-- House first floor - utility closet -->
+A utility area housing the home's mechanical systems and cleaning supplies.
+
+[[To laundry room|loc-house-floor1-laundry]]
+[[To kitchen|loc-house-floor1-kitchen]]
+[[To entry|loc-house-floor1-entry]]
+[[To garage|loc-garage-main]]
+
+
+:: loc-house-floor1-laundry {"position":"750,350","size":"100,100"}
+<!-- House first floor - laundry room -->
+The laundry room contains a washer, dryer, and utility sink. A door leads to a bathroom.
+
+[[Enter bathroom|loc-house-floor1-bathroom]]
+[[Back to utility area|loc-house-floor1-utility]]
+
+
+:: loc-house-floor1-bathroom {"position":"800,350","size":"100,100"}
+<!-- House first floor - laundry room bathroom -->
+A small but functional bathroom adjacent to the laundry room.
+
+[[Back to laundry room|loc-house-floor1-laundry]]
+
+
+:: loc-house-floor1-study {"position":"650,350","size":"100,100"}
+<!-- House first floor - study -->
+A quiet study lined with bookshelves and containing a large desk. Perfect for reading or work.
+[[Small fireproof safe->obj-safe-small]]
+
+[[Desktop computer with CRT monitor->obj-computer-desktop]]
+
+[[Back to entry|loc-house-floor1-entry]]
+
+
+:: loc-house-floor1-bar {"position":"600,350","size":"100,100"}
+<!-- House first floor - bar -->
+[[man with tousled hair and skinny tie->char-david-addison]]
+An elegant bar area with stools and a well-stocked selection of beverages.
+
+[[Wine bottle collection->obj-bottle-wine-collection]]
+
+[[Back to entry|loc-house-floor1-entry]]
+
+
+:: loc-house-floor1-maid {"position":"550,350","size":"100,100"}
+<!-- House first floor - maid quarters -->
+Modest but comfortable living quarters, presumably for household staff.
+
+[[Back to entry|loc-house-floor1-entry]]
+
+
+:: loc-house-floor2-hallway {"position":"700,200","size":"100,100"}
+<!-- House second floor - hallway -->
+The upstairs hallway provides access to the bedrooms and bathroom on this floor.
+
+[[Enter guest bathroom|loc-house-floor2-bathroom]]
+[[Enter master bedroom|loc-house-floor2-master]]
+[[Enter bedroom 2|loc-house-floor2-bedroom2]]
+[[Enter bedroom 3|loc-house-floor2-bedroom3]]
+[[Go to attic|loc-house-attic-main]]
+[[Go downstairs|loc-house-floor1-entry]]
+
+
+:: loc-house-floor2-bathroom {"position":"650,200","size":"100,100"}
+<!-- House second floor - guest bathroom -->
+A well-appointed guest bathroom serving the upstairs bedrooms.
+
+[[Back to hallway|loc-house-floor2-hallway]]
+
+
+:: loc-house-floor2-master {"position":"750,200","size":"100,100"}
+<!-- House second floor - master bedroom -->
+[[dignified woman with gray hair and pearls->char-angela-lansbury]]
+A spacious master bedroom with elegant furnishings and large windows.
+
+[[Laptop computer on desk->obj-computer-laptop]]
+
+[[Enter closet|loc-house-floor2-master-closet]]
+[[Enter bathroom|loc-house-floor2-master-bathroom]]
+[[Back to hallway|loc-house-floor2-hallway]]
+
+
+:: loc-house-floor2-master-closet {"position":"800,200","size":"100,100"}
+<!-- House second floor - master bedroom closet -->
+A large walk-in closet with extensive storage for clothing and personal items.
+
+[[Bolt-action hunting rifle->obj-weapon-rifle]]
+
+[[Back to master bedroom|loc-house-floor2-master]]
+
+
+:: loc-house-floor2-master-bathroom {"position":"750,150","size":"100,100"}
+<!-- House second floor - master bathroom -->
+A luxurious master bathroom with modern fixtures and amenities.
+
+[[Back to master bedroom|loc-house-floor2-master]]
+
+
+:: loc-house-floor2-bedroom2 {"position":"650,150","size":"100,100"}
+<!-- House second floor - bedroom 2 -->
+A comfortable guest bedroom with tasteful décor and furnishings.
+
+[[Leather suitcase with brass fittings->obj-luggage-suitcase-leather]]
+
+[[Back to hallway|loc-house-floor2-hallway]]
+
+
+:: loc-house-floor2-bedroom3 {"position":"600,200","size":"100,100"}
+<!-- House second floor - bedroom 3 -->
+Another guest bedroom, similar in style to bedroom 2 but with different color scheme.
+
+[[Soft-sided travel case->obj-luggage-suitcase-fabric]]
+
+[[Back to hallway|loc-house-floor2-hallway]]
+
+
+:: loc-house-attic-main {"position":"700,100","size":"100,100"}
+<!-- House attic - main area -->
+[[man in a black leather jacket->char-michael-knight]]
+The main attic space with sloped ceilings and stored items from years past.
+
+[[Large wooden trunk->obj-storage-trunk-wooden]]
+
+[[Go to forward attic|loc-house-attic-forward]]
+[[Back downstairs|loc-house-floor2-hallway]]
+
+
+:: loc-house-attic-forward {"position":"750,100","size":"100,100"}
+<!-- House attic - forward section -->
+The forward section of the attic, under the front gables of the house.
+
+[[Metal footlocker->obj-storage-trunk-metal]]
+
+[[Back to main attic|loc-house-attic-main]]
+
+
+:: loc-house-basement-main {"position":"700,400","size":"100,100"}
+<!-- House basement - main area -->
+The basement provides access to various utility and storage areas below the main floor.
+
+[[Enter storage room|loc-house-basement-storage]]
+[[Enter furnace room|loc-house-basement-furnace]]
+[[Enter work room|loc-house-basement-work]]
+[[Go upstairs|loc-house-floor1-entry]]
+
+
+:: loc-house-basement-storage {"position":"650,400","size":"100,100"}
+<!-- House basement - storage room -->
+[[two women, one in a leather jacket, one in a trench coat->char-cagney-lacey]]
+A storage room filled with boxes, seasonal items, and household goods.
+
+[[Old refrigerator->obj-appliance-old-fridge]]
+
+[[Back to basement|loc-house-basement-main]]
+
+
+:: loc-house-basement-furnace {"position":"750,400","size":"100,100"}
+<!-- House basement - furnace room -->
+The furnace room houses the heating system and other mechanical equipment.
+
+[[Back to basement|loc-house-basement-main]]
+
+
+:: loc-house-basement-work {"position":"700,450","size":"100,100"}
+<!-- House basement - work room -->
+A workshop area with tools and workbenches for repairs and projects.
+
+[[Well-worn claw hammer->obj-tools-hammer]]
+
+[[Set of combination wrenches->obj-tools-wrench-set]]
+[[Magnetic-tipped screwdriver set->obj-tools-screwdriver-set]]
+
+[[Back to basement|loc-house-basement-main]]
+
+
+:: loc-forest-path {"position":"300,300","size":"100,100"}
+<!-- General forest path -->
+A winding path through the forest connects various areas of the property.
+
+[[To pond area|loc-forest-pond]]
+[[To barn area|loc-forest-barn]]
+[[To main forest|loc-forest-general]]

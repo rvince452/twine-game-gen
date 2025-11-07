@@ -1,6 +1,45 @@
+Review the various locations found in this document and create passages for each location using this naming convention: loc-container-name
+
+Ravine - North boundary of property
+Forest Campground Forest 
+Forest Forest Forest
+Forest Pond Forest 
+Forest Barn Forest 
+Forest Maze Pool Forest 
+Forest Garden House Forest 
+Forest  Driveway Forest
+Wall
+Road (Dirt road on south boundary of property)
 Map
     Paved road to house
-    house
+    house-floor-basement
+        storage room
+        furnace room
+        work room 
+    house-floor-1
+        entry
+        closet
+        living room
+        kitchen
+            pantry
+        utility closet
+        laundry room
+            bathroom
+        study
+        bar 
+        maid quarters
+    house-floor-2
+        hallway
+            guest bathroom
+            master bedroom
+                closet
+                bathroom
+            bedroom 2
+            bedroom 3
+    house-floor-attic
+        main attic
+        forward attic
+    garage 
     Pool
     Poolhouse
     Garden
@@ -19,4 +58,86 @@ Map
         Cabin 1
         Cabin 2
         Cabin 3
-        
+
+
+Review the items under "Objects". Drawing from that list as well as any 'expected' items, Create 20-30 object passages and place in 10_objects.twee with naming convention obj-item-description.
+Objects
+vehicles
+games
+farm tools
+normal tools
+old fridge
+trunks
+computers
+scarecrows
+wine bottles
+safe
+rifle
+suitcases
+fishing pole 
+junk
+Trash
+burn pit 
+
+Let's do two more things: 1) Remove the non-exiting passages from 10_objects.twee 2) Use a consistent convetion with links of [[description->passage_name]]
+
+Perfect. Now let's take each object passage from 10_objects.twee and place a link to that object in one and only one appropriate location. Use the convention of [[object description->object passage]]. Place the object link ABOVE any existing links in the target passage
+
+
+Create a twee file to hold passages for game characters. Each character passage name should be of the form char-firstname-lastname. Generate at least 12 characters. Create character names using the fictional names of popular characters from 1980's television shows that were associated with crime or law enforcement or mystery. The descriptions should describe the character's physical appearance and wardrobe and not their profession or personality
+
+Create a SVG map of the second floor and attic in one file
+
+Create an ASCII map of the entire house
+
+                [Attic]
+        +------------------------+
+        |  Main Attic  | Forward |
+        +--------------+  Attic  |
+                       +---------+
+
+           [Second Floor]
++----------------+-------------------+
+| Master  | Bed2 | Hallway | Bed3    |
+| Bedroom |      |         |         |
+|  +--+   +--+   +----+----+   +--+  |
+|  |C |   |  |   | G  | M  |   |  |  |
+|  |l |   |  |   | u  | a  |   |  |  |
+|  |o |   |  |   | e  | s  |   |  |  |
+|  |s |   |  |   | s  | t  |   |  |  |
+|  |e |   |  |   | t  | e  |   |  |  |
+|  |t |   |  |   |   Bath  |   |  |  |
+|  +--+   +--+   +----+----+   +--+  |
++----------------+-------------------+
+
+           [First Floor]
++---------------------------------------------------+
+| Entry | Closet | Living Room | Kitchen | Pantry   |
+|       |        |            |         |           |
+|-------+--------+------------+---------+-----------|
+| Utility | Laundry | Bath | Study | Bar | Maid Qtrs|
+|         |         |      |       |     |          |
++---------------------------------------------------+
+|                   Garage                          |
++---------------------------------------------------+
+
+           [Basement]
++-----------------------------------+
+| Storage | Furnace | Work Room     |
++-----------------------------------+
+
+                [Ravine]
+                   |
+             [Forest General]
+        /   |   |   |   |   |   \
+[Camp] [Pond] [Barn] [Maze/Pool] [Garden/House] [Driveway]
+  |       |      |        |           |             |
+[Cab1] [PondMain] |   [Maze]      [Garden]      [Road]
+[Cab2]   |        |     |             |             |
+[Cab3] [Dock]   [BarnMain]        [Fountain]    [House Exterior]
+         |         |                  |
+     [Boathouse] [Barn Floors]    [Garage]
+
+
+There are alot of links in this passage: loc-house-floor1-entry. Please update the twee file so the links are displayed in a table with 3 columns. Do not include a header row on the table. 
+
