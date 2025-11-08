@@ -60,4 +60,10 @@ See project license file
 
 ## Development notes and strategy
 
-See the wiki associated with the github project
+See the wiki associated with the github project for full details. 
+
+Code Iteration Summary:
+
+Iteration 1: Basic separation into TWEE files and using TWEEGO and rationale behind that. Special passages and required passages.
+Iteration 2: Using AI (Copilot) to flesh out game entities (locations, objects, characters) and constructing map. Including AI prompts
+Iteration 3: TBD
