@@ -1,0 +1,3 @@
+:: action_test {"position":"400,300","size":"100,100"}
+You can ignore this. I am just testing that editor.wordWrap = on in my settings will work here as I just created this file, so I expect that world wrap will be on and I don't have to ALT+Z it manually.
+The test was successful. 

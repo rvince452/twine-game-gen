@@ -1,0 +1,60 @@
+<svg width="900" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Nodes -->
+  <rect x="400" y="40" width="100" height="40" fill="#e0e0e0" stroke="#333"/>
+  <text x="450" y="65" font-size="14" text-anchor="middle">Ravine</text>
+
+  <rect x="400" y="100" width="120" height="40" fill="#e0e0e0" stroke="#333"/>
+  <text x="460" y="125" font-size="14" text-anchor="middle">Forest General</text>
+
+  <rect x="200" y="180" width="100" height="40" fill="#e0e0e0" stroke="#333"/>
+  <text x="250" y="205" font-size="14" text-anchor="middle">Campground</text>
+
+  <rect x="80" y="260" width="90" height="35" fill="#f8f8f8" stroke="#333"/>
+  <text x="125" y="282" font-size="12" text-anchor="middle">Cabin 1</text>
+  <rect x="200" y="260" width="90" height="35" fill="#f8f8f8" stroke="#333"/>
+  <text x="245" y="282" font-size="12" text-anchor="middle">Cabin 2</text>
+  <rect x="320" y="260" width="90" height="35" fill="#f8f8f8" stroke="#333"/>
+  <text x="365" y="282" font-size="12" text-anchor="middle">Cabin 3</text>
+
+  <rect x="350" y="180" width="100" height="40" fill="#e0e0e0" stroke="#333"/>
+  <text x="400" y="205" font-size="14" text-anchor="middle">Pond Area</text>
+
+  <rect x="350" y="260" width="100" height="35" fill="#f8f8f8" stroke="#333"/>
+  <text x="400" y="282" font-size="12" text-anchor="middle">Pond Main</text>
+  <rect x="350" y="310" width="100" height="35" fill="#f8f8f8" stroke="#333"/>
+  <text x="400" y="332" font-size="12" text-anchor="middle">Dock</text>
+  <rect x="470" y="260" width="110" height="35" fill="#f8f8f8" stroke="#333"/>
+  <text x="525" y="282" font-size="12" text-anchor="middle">Boathouse</text>
+
+  <rect x="600" y="180" width="100" height="40" fill="#e0e0e0" stroke="#333"/>
+  <text x="650" y="205" font-size="14" text-anchor="middle">Barn Area</text>
+  <rect x="600" y="260" width="100" height="35" fill="#f8f8f8" stroke="#333"/>
+  <text x="650" y="282" font-size="12" text-anchor="middle">Barn Main</text>
+  <rect x="600" y="310" width="100" height="30" fill="#f8f8f8" stroke="#333"/>
+  <text x="650" y="330" font-size="12" text-anchor="middle">Barn Floors</text>
+
+  <rect x="750" y="180" width="120" height="40" fill="#e0e0e0" stroke="#333"/>
+  <text x="810" y="205" font-size="14" text-anchor="middle">Maze/Pool Area</text>
+  <rect x="750" y="260" width="100" height="35" fill="#f8f8f8" stroke="#333"/>
+  <text x="800" y="282" font-size="12" text-anchor="middle">Maze</text>
+  <rect x="870" y="260" width="100" height="35" fill="#f8f8f8" stroke="#333"/>
+  <text x="920" y="282" font-size="12" text-anchor="middle">Pool</text>
+  <rect x="870" y="310" width="100" height="35" fill="#f8f8f8" stroke="#333"/>
+  <text x="920" y="332" font-size="12" text-anchor="middle">Poolhouse</text>
+
+  <rect x="200" y="400" width="120" height="40" fill="#e0e0e0" stroke="#333"/>
+  <text x="260" y="425" font-size="14" text-anchor="middle">Garden/House</text>
+  <rect x="200" y="460" width="100" height="35" fill="#f8f8f8" stroke="#333"/>
+  <text x="250" y="482" font-size="12" text-anchor="middle">Garden</text>
+  <rect x="320" y="460" width="100" height="35" fill="#f8f8f8" stroke="#333"/>
+  <text x="370" y="482" font-size="12" text-anchor="middle">Fountain</text>
+
+  <rect x="400" y="400" width="120" height="40" fill="#e0e0e0" stroke="#333"/>
+  <text x="460" y="425" font-size="14" text-anchor="middle">Driveway</text>
+  <rect x="400" y="460" width="100" height="35" fill="#f8f8f8" stroke="#333"/>
+  <text x="450" y="482" font-size="12" text-anchor="middle">Road</text>
+  <rect x="520" y="460" width="100" height="35" fill="#f8f8f8" stroke="#333"/>
+  <text x="570" y="482" font-size="12" text-anchor="middle">House Exterior</text>
+  <rect x="640" y="460" width="100" height="35" fill="#f8f8f8" stroke="#333"/>
+  <text x="690" y="482" font-size="12" text-anchor="middle">Garage</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Entry -->
+  <rect x="350" y="50" width="100" height="60" fill="#e0e0e0" stroke="#333"/>
+  <text x="400" y="85" font-size="14" text-anchor="middle">Entry</text>
+
+  <!-- Closet -->
+  <rect x="270" y="50" width="60" height="40" fill="#f8f8f8" stroke="#333"/>
+  <text x="300" y="75" font-size="12" text-anchor="middle">Closet</text>
+
+  <!-- Living Room -->
+  <rect x="470" y="50" width="120" height="80" fill="#e0e0e0" stroke="#333"/>
+  <text x="530" y="95" font-size="14" text-anchor="middle">Living Room</text>
+
+  <!-- Kitchen -->
+  <rect x="470" y="150" width="120" height="60" fill="#e0e0e0" stroke="#333"/>
+  <text x="530" y="185" font-size="14" text-anchor="middle">Kitchen</text>
+
+  <!-- Pantry -->
+  <rect x="610" y="150" width="60" height="40" fill="#f8f8f8" stroke="#333"/>
+  <text x="640" y="175" font-size="12" text-anchor="middle">Pantry</text>
+
+  <!-- Utility -->
+  <rect x="350" y="150" width="80" height="40" fill="#f8f8f8" stroke="#333"/>
+  <text x="390" y="175" font-size="12" text-anchor="middle">Utility</text>
+
+  <!-- Laundry -->
+  <rect x="350" y="200" width="80" height="40" fill="#f8f8f8" stroke="#333"/>
+  <text x="390" y="225" font-size="12" text-anchor="middle">Laundry</text>
+
+  <!-- Bathroom -->
+  <rect x="350" y="250" width="80" height="30" fill="#f8f8f8" stroke="#333"/>
+  <text x="390" y="270" font-size="12" text-anchor="middle">Bathroom</text>
+
+  <!-- Study -->
+  <rect x="230" y="150" width="100" height="60" fill="#e0e0e0" stroke="#333"/>
+  <text x="280" y="185" font-size="14" text-anchor="middle">Study</text>
+
+  <!-- Bar -->
+  <rect x="120" y="150" width="80" height="40" fill="#f8f8f8" stroke="#333"/>
+  <text x="160" y="175" font-size="12" text-anchor="middle">Bar</text>
+
+  <!-- Maid Quarters -->
+  <rect x="120" y="200" width="80" height="40" fill="#f8f8f8" stroke="#333"/>
+  <text x="160" y="225" font-size="12" text-anchor="middle">Maid Quarters</text>
+
+  <!-- Stairs Up -->
+  <rect x="350" y="320" width="60" height="30" fill="#d0d0ff" stroke="#333"/>
+  <text x="380" y="340" font-size="12" text-anchor="middle">Upstairs</text>
+
+  <!-- Stairs Down -->
+  <rect x="420" y="320" width="60" height="30" fill="#ffd0d0" stroke="#333"/>
+  <text x="450" y="340" font-size="12" text-anchor="middle">Basement</text>
+
+  <!-- Garage -->
+  <rect x="350" y="400" width="100" height="60" fill="#e0e0e0" stroke="#333"/>
+  <text x="400" y="435" font-size="14" text-anchor="middle">Garage</text>
+
+  <!-- Labels for connections (not lines, just text) -->
+  <text x="400" y="120" font-size="10" text-anchor="middle" fill="#888">to Living Room</text>
+  <text x="400" y="190" font-size="10" text-anchor="middle" fill="#888">to Kitchen/Utility</text>
+  <text x="400" y="370" font-size="10" text-anchor="middle" fill="#888">to Upstairs/Basement</text>
+  <text x="400" y="390" font-size="10" text-anchor="middle" fill="#888">to Garage</text>
+</svg>

@@ -66,4 +66,16 @@ Code Iteration Summary:
 
 Iteration 1: Basic separation into TWEE files and using TWEEGO and rationale behind that. Special passages and required passages.
 Iteration 2: Using AI (Copilot) to flesh out game entities (locations, objects, characters) and constructing map. Including AI prompts
-Iteration 3: TBD
+Iteration 3: 
+*Use AI to generate a better banner picture (an old door to represent choices)
+*Debug panel to show current passage, shown only when debug flag is activated
+*Footer panel - empty for now
+*Speaker box - when a character is speaking, put their text in a box that is labeled with their name.
+*Handling annoying line breaks 
+*Add inventory macros and split into separate files
+*Change Visual Code settings so that word wrap is on as a default
+
+Future:
+*Action that takes some time and then shows results
+**And updates the page
+*Link that shows more text after click

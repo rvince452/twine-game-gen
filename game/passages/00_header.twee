@@ -47,11 +47,12 @@ Does not show text, only links - check documentation
 
 :: PassageFooter {"position":"200,0","size":"100,100"}
 <<if $debug is true>>\
-<<print "-----">>
-<<print "debuggin on: current passage=" + passage()>>
+<div style="border:1px solid #33C; padding:8px; margin:6px 0; border-radius:4px;"> \
+<<print "DEBUG hour:" + $hour + " passage:" + passage()>>
+</div>\
 <</if>>\
-<div style="border:1px solid #33C; padding:8px; margin:6px 0; border-radius:4px;"> 
-Footer contents
-</div>
+<div style="border:1px solid #33C; padding:8px; margin:6px 0; border-radius:4px;"> \
+Footer contents - not used now 
+</div>\
 
 

@@ -1,8 +1,10 @@
 :: Start
 
+<<voice>>
 You are at the start of the game. But nowhere to go except to follow the road
-[[Follow the road to the house|loc-forest-driveway]]
-[[Enter the forest|loc-forest-general]]
+<</voice>>
+[[Follow the road to the house|loc-forest-driveway][$hour += 1]]
+[[Wander the forest (takes time)|loc-forest-general][$hour += 3]]
 
 
 :: StoryInit {"position":"1800,425","size":"100,200"}
@@ -10,12 +12,18 @@ You are at the start of the game. But nowhere to go except to follow the road
 
 <<set $debug to true>>
 <<set $inventory to []>>
+<<set $hour to 0>>
+
+<<addinventory "Can of Spam" "obj-can-spam">>
 
 
 
 
-:: Inventory [UNUSED] {"position":"725,125","size":"100,100"}
-No inventory
+:: Inventory  {"position":"725,125","size":"100,100"}
+<<showinventory>>
+<<if setup.ininventory("Can of Spam") is true>>\
+<<print "BTW, you have a can of Spam in your inventory.">>
+<</if>>\
 <<return>>
 
 :: Characters [UNUSED] {"position":"725,125","size":"100,100"}
